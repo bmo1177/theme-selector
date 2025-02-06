@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 interface Student {
   name: string;
@@ -43,17 +45,23 @@ const PatternCard = ({ name, students, date, status }: PatternCardProps) => {
         )}
       </CardContent>
       <CardFooter>
-        <Button
-          variant="outline"
-          className="w-full"
-          disabled={status === "assigned"}
-        >
-          {status === "assigned"
-            ? "Pattern attribué"
-            : status === "pending"
-            ? "Demande en cours"
-            : "Demander ce pattern"}
-        </Button>
+        {status === "available" ? (
+          <Button
+            variant="outline"
+            className="w-full"
+            asChild
+          >
+            <Link to="/request">Demander ce pattern</Link>
+          </Button>
+        ) : (
+          <Button
+            variant="outline"
+            className="w-full"
+            disabled
+          >
+            {status === "assigned" ? "Pattern attribué" : "Demande en cours"}
+          </Button>
+        )}
       </CardFooter>
     </Card>
   );
