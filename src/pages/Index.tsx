@@ -1,7 +1,14 @@
 import Header from "@/components/Header";
 import PatternCard from "@/components/PatternCard";
 
-const patterns = [
+interface Pattern {
+  name: string;
+  students: { name: string }[];
+  status: "available" | "assigned" | "pending";
+  date?: string;
+}
+
+const patterns: Pattern[] = [
   {
     name: "Factory",
     students: [],
@@ -30,8 +37,7 @@ const patterns = [
     status: "assigned",
     date: "01/Mars/2025",
   },
-  // ... autres patterns
-] as const;
+];
 
 const Index = () => {
   return (
@@ -55,7 +61,7 @@ const Index = () => {
                 name={pattern.name}
                 students={pattern.students}
                 date={pattern.date}
-                status={pattern.status as "available" | "assigned" | "pending"}
+                status={pattern.status}
               />
             ))}
           </div>
