@@ -15,8 +15,12 @@ interface Pattern {
 const patterns: Pattern[] = [
   {
     name: "Factory",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Hamdani Asmaa" },
+      { name: "Boukhdidja Ichrak" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025", 
   },
   {
     name: "Abstract Factory",
@@ -74,9 +78,13 @@ const patterns: Pattern[] = [
   },
   {
     name: "Observer",
-    students: [],
-    status: "available",
-  },
+    students: [
+      { name: "Hemaid Khadidja" },
+      { name: "Bouafia Affaf" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
+    },
   {
     name: "Strategy",
     students: [
@@ -99,7 +107,7 @@ const patterns: Pattern[] = [
   {
     name: "Iterator",
     students: [],
-    status: "available",
+    status: "pending",
   },
   {
     name: "Chain of Responsibility",
