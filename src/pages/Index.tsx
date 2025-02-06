@@ -107,7 +107,7 @@ const patterns: Pattern[] = [
   {
     name: "Iterator",
     students: [],
-    status: "pending",
+    status: "available",
   },
   {
     name: "Chain of Responsibility",
