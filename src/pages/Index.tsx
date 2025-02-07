@@ -131,8 +131,12 @@ const patterns: Pattern[] = [
   },
   {
     name: "Template Method",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Hamitou Yahia" },
+      { name: "Mahrouz Abdelkader" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025", 
   },
   {
     name: "Visitor",
