@@ -106,8 +106,12 @@ const patterns: Pattern[] = [
   },
   {
     name: "Iterator",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Nadri Fatima" },
+      { name: "Naimi Maria" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025", 
   },
   {
     name: "Chain of Responsibility",
