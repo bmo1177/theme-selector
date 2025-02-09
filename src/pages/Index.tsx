@@ -144,8 +144,13 @@ const patterns: Pattern[] = [
   },
   {
     name: "Visitor",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Medmoun Ihab Moataz-billah" },
+      { name: "Oured Mohamed Saleh-eddine" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
+  },
   }
 ];
 
