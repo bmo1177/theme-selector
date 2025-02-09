@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import Header from "@/components/Header";
 import PatternCard from "@/components/PatternCard";
@@ -83,8 +84,8 @@ const patterns: Pattern[] = [
       { name: "Bouafia Affaf" }
     ],
     status: "assigned",
-    date: "01/Mars/2025",
-    },
+    date: "01/Mars/2025"
+  },
   {
     name: "Strategy",
     students: [
@@ -111,7 +112,7 @@ const patterns: Pattern[] = [
       { name: "Naimi Maria" }
     ],
     status: "assigned",
-    date: "01/Mars/2025", 
+    date: "01/Mars/2025"
   },
   {
     name: "Chain of Responsibility",
@@ -140,17 +141,16 @@ const patterns: Pattern[] = [
       { name: "Mahrouz Abdelkader" }
     ],
     status: "assigned",
-    date: "01/Mars/2025", 
+    date: "01/Mars/2025"
   },
   {
     name: "Visitor",
     students: [
-      { name: "Medmoun Ihab" },
-      { name: "Ouared Saleh" }
+      { name: "Medmoun Ihab Moataz-billah" },
+      { name: "Oured Mohamed Saleh-eddine" }
     ],
     status: "assigned",
-    date: "01/Mars/2025", 
-  },
+    date: "01/Mars/2025"
   }
 ];
 
