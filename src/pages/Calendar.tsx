@@ -1,6 +1,6 @@
 
 import { Calendar as CalendarIcon } from "lucide-react";
-import { Calendar } from "@/components/ui/calendar";
+import { Calendar as DayPicker } from "@/components/ui/calendar";
 import {
   HoverCard,
   HoverCardContent,
@@ -10,7 +10,7 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { fr } from 'date-fns/locale';
 
-const Calendar = () => {
+const CalendarPage = () => {
   const [date, setDate] = useState<Date | undefined>(new Date("2025-03-01"));
   
   const presentationDates = [
@@ -31,7 +31,7 @@ const Calendar = () => {
         
         <div className="grid gap-8 md:grid-cols-2">
           <div>
-            <Calendar
+            <DayPicker
               mode="single"
               selected={date}
               onSelect={setDate}
@@ -71,4 +71,4 @@ const Calendar = () => {
   );
 };
 
-export default Calendar;
+export default CalendarPage;
