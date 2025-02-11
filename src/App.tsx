@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import RequestPattern from "./pages/RequestPattern";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
+import Calendar from "./pages/Calendar";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
             <Route path="/request" element={<RequestPattern />} />
             <Route path="/admin" element={<AdminLogin />} />
             <Route path="/admin/dashboard" element={<AdminDashboard />} />
+            <Route path="/calendar" element={<Calendar />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

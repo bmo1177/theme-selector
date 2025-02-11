@@ -1,4 +1,6 @@
+
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,7 +15,14 @@ const Header = () => {
               Master GL 2024-2025 - Spécification et Conception Logicielles
             </p>
           </div>
-          <Button variant="outline">Connexion Admin</Button>
+          <div className="flex gap-2">
+            <Button variant="outline" asChild>
+              <Link to="/calendar">Calendrier</Link>
+            </Button>
+            <Button variant="outline" asChild>
+              <Link to="/admin">Connexion Admin</Link>
+            </Button>
+          </div>
         </div>
       </div>
     </header>
