@@ -17,8 +17,9 @@ const patterns: Pattern[] = [
   {
     name: "Factory",
     students: [
-      { name: "Hamdani Asmaa" },
-      { name: "Boukhdidja Ichrak" }
+      { name: "Bouafia Afaf" },
+      { name: "Naimi Maria" },
+      { name: "Nadri Fatima Zohra" }
     ],
     status: "assigned",
     date: "01/Mars/2025", 
@@ -35,18 +36,30 @@ const patterns: Pattern[] = [
   },
   {
     name: "Prototype",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Seddiki Meriem" },
+      { name: "Serrar Fatima Zohra" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
   },
   {
     name: "Adapter",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Ait Abderrahim Abdel Hakim" },
+      { name: "Belakermi Nabil" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
   },
   {
     name: "Bridge",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Abada Kamel" },
+      { name: "Aichouche Aymen Walid" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
   },
   {
     name: "Composite",
@@ -80,8 +93,9 @@ const patterns: Pattern[] = [
   {
     name: "Observer",
     students: [
+      { name: "Boukhdidja Ichrak" },
       { name: "Hemaid Khadidja" },
-      { name: "Bouafia Affaf" }
+      { name: "Hamdani Asma" }
     ],
     status: "assigned",
     date: "01/Mars/2025"
@@ -148,6 +162,41 @@ const patterns: Pattern[] = [
     students: [
       { name: "Medmoun Ihab Moataz-billah" },
       { name: "Oured Mohamed Saleh-eddine" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025"
+  },
+  {
+    name: "Model-View Template",
+    students: [
+      { name: "Hammadi Aissa" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025"
+  },
+  {
+    name: "MVC",
+    students: [
+      { name: "Benhenni Fadwa" },
+      { name: "Sahnoun Laila" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025"
+  },
+  {
+    name: "Commit-Reveal Scheme",
+    students: [
+      { name: "Belalia Anis Hossam-eddine" },
+      { name: "Kaddour Abderrahmane" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025"
+  },
+  {
+    name: "Null-Object",
+    students: [
+      { name: "Belmorsli Sid-Ahmed" },
+      { name: "Boumaza Youcef" }
     ],
     status: "assigned",
     date: "01/Mars/2025"
