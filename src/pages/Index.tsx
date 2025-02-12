@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import PatternCard from "@/components/PatternCard";
@@ -197,7 +196,8 @@ const patterns: Pattern[] = [
     status: "assigned",
     date: "01/Mars/2025"
   },
-      name: "Event-Driven Architecture",
+  {
+    name: "Event-Driven Architecture",
     students: [
       { name: "Belalia Mohamed Oussama" },
       { name: "Belghiter Kheirreddine" }
