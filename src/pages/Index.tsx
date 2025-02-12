@@ -196,6 +196,14 @@ const patterns: Pattern[] = [
     ],
     status: "assigned",
     date: "01/Mars/2025"
+  },
+      name: "Event-Driven Architecture",
+    students: [
+      { name: "Belalia Mohamed Oussama" },
+      { name: "Belghiter Kheirreddine" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025",
   }
 ];
 
