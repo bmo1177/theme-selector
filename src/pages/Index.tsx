@@ -25,8 +25,13 @@ const patterns: Pattern[] = [
   },
   {
     name: "Abstract Factory",
-    students: [],
-    status: "available",
+    students: [
+      { name: "Boukhors Iman" },
+      { name: "Boutaiba Khaldia" },
+      { name: "Belezreg Imane" }
+    ],
+    status: "assigned",
+    date: "01/Mars/2025", 
   },
   {
     name: "Builder",
